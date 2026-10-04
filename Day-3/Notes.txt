@@ -1,0 +1,204 @@
+Web Applications : 
+-----------------
+    ->Any Applications that will be run on browsers is called as a web Applications 
+
+    Types : 
+    -------
+        1.Static web Applications: 
+        ---------------------------
+            ->Any Web Applications doesn't have functionalities 
+            ->TO build Static web Applications we will only HTML & CSS 
+
+        2. Dynamic Web Applications: 
+        -----------------------------
+            ->Any Web Applications having functionalities is called dynamic web Applications
+            ->To Build dynamic web Applications HTML , CSS and JS required
+    
+
+HTML : 
+-----
+    ->
+
+
+HTML Boiler Plate: 
+-------------------
+    
+Tags: 
+----
+    ->Tags are the predefine words which are enclosed with both opening and closing angular brackets 
+    Ex: 
+        <h1> , <p> , <div>
+
+    Types: 
+        1. Paired tags : 
+        --------------
+            ->Any tags having both opening and closing tags is called as a paired tags 
+
+            Ex: 
+                1. All Heading tags 
+                            <h1>heading tag-1</h1>
+                            <h2>heading tag-2</h2>
+                            <h3>heading tag-3</h3>
+                            <h4>heading tag-4</h4>
+                            <h5>heading tag-5</h5>
+                            <h6>heading tag-6</h6>
+                2. Formatting tags 
+                        i. <b></b>              ->font  bold 
+                        ii. <strong></strong>   ->font  bold
+                        iii. <i></i>            ->font italic 
+                        iv.  <em></em>          ->font italic
+                        v.   <mark></mark>      ->light the content
+                        vi.  <u></u>            ->underline 
+                        vii. <sub></sub>        ->subscript 
+                        viii. <sup></sup>       ->superscript
+                        x.   <marquee></marquee> ->to scroll the content 
+                        xi.  <center></center>   ->align content to center 
+                                    (only work for block level elements)
+                        xii. <strick></strick> 
+
+                3. Other tags 
+                    ->Ex: <p></p> ,<div></div> ,<span></span> , all list tags , media tags , semantic tags 
+                    
+
+
+25-09-2026
+------------
+
+
+
+Other tags: 
+-----------
+    Ex: <div></div> , <p></p> , <span></span> , all list tags , Media tags , semantic tags 
+
+
+2. Unpaired Tags /self closing tags : 
+--------------------------------------
+    ->Any Tags having only opening Tags is called unpaired tags 
+    Ex: <br> , <img> , <hr> , <col> , <input> ,<meta>...etc 
+
+
+Img tag : 
+--------
+    -><img> is the one of the media tag used to display images on the web page 
+    ->Image attributes: 
+    -------------------
+         1. src(source): 
+                    ->Absolute Path(Browser Images path)
+                    ->Relative Path(Downloaded Images path)
+         2. alt 
+         3. width 
+         4. height 
+         5. style 
+         6. id
+         7. class
+
+
+
+Attributes : 
+------------
+    ->Attributes are the additional inform given to the tag 
+    ->Attributes are always in static (opening ) tag 
+    ->Attributes are alway in key and value 
+
+    Ex: 
+        <h1 style=" " align="right" align="center">  </h1>
+
+
+
+
+
+Git Commands : 
+-----------------
+
+git init
+
+git add .
+
+git commit -m "Image with different path Examples"
+
+git branch -M main
+
+git remote add origin https://github.com/ashokm0603/Java-Full-Stack-VVIT-CSE-A.git
+
+git push origin main
+
+
+
+
+List In HTML : 
+-------------
+    ->List is used to display items in organized way 
+    Types : 
+        1. ordered list 
+            -><ol> </ol> represent the ordered list using that 
+            -><ol> </ol> contains list of items 
+
+            Order list Attributes: 
+            -----------------------
+                1. start  ->numbers 
+                2. type   ->1, a, A, i, I 
+                3. reserved
+
+        2. unordered list 
+            -><ul> </ul> represent the unordered list using that 
+            -><ol> </ol> contains list of items 
+
+            UnOrdered list Attributes: 
+            -----------------------
+                1. type   ->none , disc, circle , square 
+                
+            
+        3. description / definition list 
+            -><dl> </dl> ->represent the description list 
+            -> <dt> </dt> ->represent the description term 
+            -> <dd> </dd> ->description the description data 
+
+
+        4. nested list 
+            ->
+
+
+Forms: 
+------
+    ->Forms are used to collect user information digitally
+
+    Forms Tags : 
+    --------------
+        <form></form> 
+        <fieldset></fieldset> 
+        <legend></legend> 
+        <label></label> 
+        <input>
+        <select></select>   ->   <option></option>
+        <button></button>
+        <textarea></textarea>
+
+
+
+Input type Values : 
+-------------------
+    1. text 
+    2. password 
+    3. number 
+    4. email 
+    5. date 
+    6. radio 
+    7. reset 
+    8. button 
+    9. checkbox 
+    10. submit 
+    11. range 
+    12. image 
+    13. url 
+    14. search 
+    15. month 
+    16. year 
+    17. time 
+    18. datetime-local
+    19. color 
+    20. hidden
+    21. file 
+    22. tel
+    23. week
+
+

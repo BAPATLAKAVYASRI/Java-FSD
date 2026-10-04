@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDERXwbMEupPJVS3-5U04iLq4mcp1jkoavw_jK0zxOA&s=10");
+            background-size: cover;
+            background-position: center;
+        }
+        fieldset{
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 10px  50px;
+            box-shadow: 5px 5px 5px aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Login Form</legend>
+            <label for="username">UserName: </label>
+            <input type="text" minlength="3" maxlength="10" placeholder="Enter username" required id="username">
+
+            <br> <br>
+            <label for="psw">Password: </label>
+            <input type="" placeholder="Enter Password" required id="psw">
+
+            <br><br>
+            <button type="submit">Login</button>
+            <button type="reset">Cancel</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

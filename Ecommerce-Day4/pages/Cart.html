@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Think Mart - Cart</title>
+    <link rel="stylesheet" href="../style/index.css">
+</head>
+
+<body>
+
+<header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXS4t0fqUwRF70D-rAYZcaXD6xykAmzIIiO50ZAql1Cg&s" alt="Think Mart">
+
+    <nav>
+        <ol>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Products.html">Products</a></li>
+            <li><a href="./Cart.html">Cart</a></li>
+            <li><a href="./About.html">About</a></li>
+            <li><a href="./Contact.html">Contact</a></li>
+            <li><a href="./Login.html">Logout</a></li>
+        </ol>
+    </nav>
+</header>
+
+<main>
+
+    <h1 class="page-title">Shopping Cart</h1>
+
+    <section class="cart-container">
+
+        <div class="cart-item">
+
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400">
+
+            <div>
+                <h2>HP Laptop</h2>
+                <p>Price: ₹75,000</p>
+
+                <label>Quantity:</label>
+                <input type="number" value="1" min="1"
+                       onchange="alert('Quantity updated!')">
+
+                <p>Total: ₹75,000</p>
+            </div>
+
+            <button class="remove-btn"
+                    onclick="this.parentElement.remove()">
+                Remove
+            </button>
+
+        </div>
+
+
+        <div class="cart-item">
+
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400">
+
+            <div>
+                <h2>Smartphone</h2>
+                <p>Price: ₹35,999</p>
+
+                <label>Quantity:</label>
+                <input type="number" value="1" min="1"
+                       onchange="alert('Quantity updated!')">
+
+                <p>Total: ₹35,999</p>
+            </div>
+
+            <button class="remove-btn"
+                    onclick="this.parentElement.remove()">
+                Remove
+            </button>
+
+        </div>
+
+
+        <div class="order-summary">
+
+            <h2>Order Summary</h2>
+
+            <p>Subtotal: <strong>₹1,10,999</strong></p>
+
+            <p>Discount: <strong>₹5,000</strong></p>
+
+            <p>Delivery: <strong>FREE</strong></p>
+
+            <hr>
+
+            <h2>Total: ₹1,05,999</h2>
+
+            <button class="checkout-btn"
+                    onclick="alert('Order placed successfully!')">
+                Proceed to Checkout
+            </button>
+
+        </div>
+
+    </section>
+
+</main>
+
+</body>
+</html>
