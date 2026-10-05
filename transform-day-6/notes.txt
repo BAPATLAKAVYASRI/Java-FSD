@@ -1,0 +1,25 @@
+CSS Tranforms
+======================
+Scale:
+    ->transform:scale(2);
+    ->transform:scale(0.5);
+    ->trnasform:scale(2,3);
+
+    ->transform:scaleX(0.5);
+    ->transform:scaleY(0.5);
+
+
+
+Translate:
+
+    ->transform:translate(20px);    
+    ->transform:translate(20px,50px);
+    ->transform:translateX(20px);
+    ->transform:translateY(20px);
+
+
+Skew:
+    ->trnasform:skew(30deg);
+
+
+

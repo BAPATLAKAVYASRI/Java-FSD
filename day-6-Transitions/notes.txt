@@ -1,0 +1,9 @@
+Transitions
+=======================================
+Transitions enable you to define the Transitions between two states of an element
+
+-
+    • transition-property: The name of the CSS property you want to animate (e.g., background-color, width, transform). Use all to animate every compatible property.
+    • transition-duration: How long the transition takes to complete, defined in seconds (s) or milliseconds (ms). This is required; if omitted, it defaults to 0s and no animation happens.
+    • transition-timing-function: Defines the speed curve of the transition (e.g., linear, ease, ease-in, ease-out, ease-in-out).
+    • transition-delay: The amount of time to wait before the transition effect begins.
