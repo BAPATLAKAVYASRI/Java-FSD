@@ -1,0 +1,68 @@
+Animation:
+---------------
+To animate CSS elements
+@keyframe myName{
+    from{font-size:20px;}
+    to{font-size:40px;}
+}
+
+Animation Properties:
+-------------------------
+    -animation-name
+    -animation-duration
+    -animation-timing-function
+    -animation-delay
+    -animation-iteration-count
+    -animation-direction
+
+Animation Shorthand
+---------------------
+    animation:myName 2s linear 3s infinite normal
+
+% in Animation:
+----------------
+    @keyframe myName{
+        0%{font-size:20px;}
+        50%{font-size:30px;}
+        100%{font-size:40px;}
+    }
+
+
+Media Queries:
+---------------
+Help create a responsive website.
+
+@media(width:600px){
+    div{
+        background-color:red;
+    }
+}
+
+@media(min-width:600px){
+    div{
+        background-color:red;
+    }
+}
+
+@media(min-width:200px) and (min-width:300px){
+    div{
+        background-color:red;
+    }
+}
+
+Position:
+------------
+-static: default position.(The top,right,bottom,left,and z-index properties have no effect)
+-realtive: element is realtive to itself.(The top,right,bottom,left,and z-index will work)
+-absolute: positioned relative to its closest positioned ancestor.(removed from the flow)
+-fixed: positioned relative to browser.(removed from flow)
+-sticky: positioned based on scroll's scroll position.
+
+z-index:
+-----------------------
+It decides the stack level of elements.
+Overlapping elements with a larger z-index cover those with a smaller one.
+
+z-index:auto (0)
+z-index:1/2/3
+z-index:-1/-2/-3
